@@ -28,9 +28,6 @@ public class Semafor {
         waitMedi();
         System.out.println("Metoda 3 ne funksion");// pjesa kritike
         Signal();
-        while (true){
-
-        }
     }
     public void waitMedi(){
         while (this.S<=0){
