@@ -29,7 +29,7 @@ public class Semafor {
         System.out.println("Metoda 3 ne funksion");// pjesa kritike
         Signal();
     }
-    public void waitMedi(){
+    public synchronized void waitMedi(){
         while (this.S<=0){
 
         }
